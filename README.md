@@ -15,6 +15,10 @@ Implemented a complete **fMRI preprocessing pipeline in FSL**, including brain e
 
 Extended the analysis to **higher-level FEAT group analysis** across 30 subjects. Studied average activation patterns using motor contrasts from Assignment 2 and performed conjunction analysis to identify regions consistently activated across participants. Results showed strong group-level activation in the **precentral/postcentral gyri**, cerebellum, and associated motor regions for both left- and right-hand movement.
 
+### Assignment 4 — Custom GLM and Group Analysis Implementation
+
+Developed custom implementations for **single-subject and group-level fMRI GLM analysis** and compared the outputs with FSL. Evaluated parameter estimates, contrast estimates, and statistical maps through correlation analysis and visual comparison. The custom implementation showed good agreement with FSL while also highlighting differences in scaling and statistical estimation methods.
+
 ## Course Project — Image Reconstruction Using fMRI Data
 
 Worked on a course project focused on **reconstructing visual images from fMRI brain activity** using deep learning–based decoding pipelines. Studied and replicated existing methods including **Shen et al. (2019)** and **Kamitani Lab’s Deep Image Reconstruction**, then explored improvements through **semantic-guided reconstruction** inspired by recent CLIP + VQGAN based approaches.
@@ -22,7 +26,3 @@ Worked on a course project focused on **reconstructing visual images from fMRI b
 A major contribution of the project was improving reconstructed image quality using **post-processing denoising techniques** such as **Total Variation filtering, Richardson–Lucy deconvolution, Non-Local Means, and BM3D**. The reconstructed outputs were evaluated using **SSIM, PCC, LPIPS, and MSE**, where **Total Variation filtering consistently gave the best balance between structural preservation and noise reduction**.
 
 The project provided practical experience with **fMRI-based brain decoding, feature extraction using VGG/CLIP, generative image reconstruction using VQGAN, and evaluation of perceptual image quality**, while also highlighting challenges such as noisy BOLD signals, limited subject data, and computational constraints in large-scale neural decoding pipelines.
-
-### Assignment 4 — Custom GLM and Group Analysis Implementation
-
-Developed custom implementations for **single-subject and group-level fMRI GLM analysis** and compared the outputs with FSL. Evaluated parameter estimates, contrast estimates, and statistical maps through correlation analysis and visual comparison. The custom implementation showed good agreement with FSL while also highlighting differences in scaling and statistical estimation methods.
